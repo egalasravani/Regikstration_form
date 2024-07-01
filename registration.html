@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sign up form</title>
+        <style>
+            body {
+                background-image: url("bg.jpg.jpg");
+                background-repeat:no-repeat;
+                background-size: cover;
+             }
+            .head{
+                text-align: center;
+            }
+            .center{
+                text-align: center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: medium;
+                margin: auto;
+                padding: 10px;
+                background-color: blueviolet;
+                width: 30%;
+                height: 400px
+            }
+            .input{
+                width: 100%;
+                padding: 15px;
+                margin: 5px;
+            
+            }
+        
+        </style>
+    </head>
+    <body>
+        <DIV class="head"><h1>FLAT SIGN UP FORM</h1></DIV>
+        <div class="center"><h2>SIGN UP</h2>
+           <div class="input"> 
+            <label>
+                <input type="text" name="firstname" placeholder="Firstname" size="50" />
+            </label>
+         </div>
+            <div class="input">
+                <label>
+                <input type="text" name="lastname" placeholder="lastname" size="50" />
+            </label>
+            </div>
+            <div class="input">
+                <label>
+                <input type="email" name="email" placeholder="Email" size="50" />
+            </label>
+            </div>
+            <div class="input">
+                <label for="pwd">
+                <input type="password" id="password" placeholder="password" size="50" required />
+            </label>
+            </div>
+            <div class="input">
+                <label for="pwd">
+                <input type="password" id="confirm_password" placeholder="confirm password" size="50" required />
+            </label>
+            </div>
+                            <button onclick="alert('Thank You!!')" style="background-color: deeppink; font-size: medium;"  > SIGN UP</button>
+            
+        </div>
+       
+        
+    </body>
+</html>
